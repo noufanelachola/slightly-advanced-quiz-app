@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    row-gap: 2rem;
+
+    min-height: 100vh;
+    width: 100%;
+
+    margin: 2rem 0;
+}
+
+.quiz-container h2 {
+    font-size: 3rem;
+    margin: 0 auto 2rem auto;
+
+    text-align: center;
+
+}
+
+.question-div {
+    border: 1px solid black;
+    margin: 0 1rem ;
+    padding: 0.5rem;
+}
+
+.question-div p {
+    font-size: 2rem;
+}
+
+.option {
+    border: 1px solid black;
+    margin: 2rem 1rem 1rem 1rem ;
+    padding: 0.5rem;
+
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+
+}
+
+.option ul li {
+    list-style: none;
+} 
+
+.buttons {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: end;
+    column-gap: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
+
+.buttons .previousBtn {
+    margin-right: auto;
+}
